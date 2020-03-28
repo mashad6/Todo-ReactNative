@@ -11,7 +11,6 @@ export default class List extends Component {
         <Text>{text}</Text>
         <TouchableOpacity style={styles.item} onPress={() => onPressItem(i)}>
             <Text>X</Text>
-            
         </TouchableOpacity>
       </View>
     )
